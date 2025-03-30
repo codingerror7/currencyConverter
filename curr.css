@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'gilroy';
+    background-color: #598392;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+#main{
+    min-height: 40vh;
+    width: 30vw;
+    border: 2px solid #01161e;
+    border-radius: 1rem;
+    color: white;
+    background-color: #01161e;
+    margin-left: 35vw;
+    margin-top: 5%;
+}
+form{
+    margin: 3rem;
+}
+form input, #res{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+#amount p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#amount input{
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.4rem;
+}
+.dropdown{
+    width: 100%;
+   /* border: 2px solid white;*/
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* border: 2px solid white;*/
+    border-radius: 5px;
+    background-color: #598392;
+
+}
+.select img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.select select{
+    width: 80%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+#res{
+  /*  border: 2px solid white;*/
+    margin-top: 11%;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+#btn{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8%;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+/*RESPONSIVENESS*/
+
+@media(max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+    html,body{
+        height: 100vh;
+        width: 100vw;
+        font-family: 'gilroy';
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 6%;
+    }
+    #main{
+        min-height: 40vh;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 10%;
+    }
+    form{
+        margin: 2.5rem;
+    }
+    #amount p{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    #amount input{
+        margin-top: 0.6rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .dropdown{
+        margin-top: 3rem;
+    }
+    .dropdown p{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .dropdown i{
+        font-size: 0rem;
+        font-weight: 400;
+    }
+    .select{
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    .select img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .select select{
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    #res{
+        /*border: 2px solid white;*/
+        margin-top: 30%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #btn{
+        padding: 0.1rem;
+        margin-top: 15%;
+        font-size: 0.7rem;
+        padding: 0.4rem;
+    }
+}
